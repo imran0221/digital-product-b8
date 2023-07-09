@@ -13,8 +13,7 @@
 }
 .menus{
     display: flex;
-    
-} 
+}
 
 .menu-item{
     margin-right: 20px;
@@ -27,4 +26,37 @@
 }
 .logo-photo{
     width: 170px;
+}
+.banner-img{
+    width: 280px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(130, 56, 199);
+    height: 100vh;
+    align-items: center;
+    background-image: url("./images/background.png"),linear-gradient(45deg,#090808,#000);
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1px;
+
+}
+.head{
+    font-size: 52px;
+    font-weight: bold;
+}
+.paragraph{
+    font-size: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.botom{
+    padding: 10px 20px;
+    background-color: rgb(202, 21, 21);
+    color: white;
+    border-radius: 5px;
+    border: none;
 }
