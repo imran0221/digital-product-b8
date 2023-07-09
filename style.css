@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: rgb(25, 22, 22);
+    padding: 20px;
+}
+.logo-photo{
+    width: 170px;
+}
