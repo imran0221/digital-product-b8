@@ -5,6 +5,25 @@
 .container{
     background-color: rgb(25, 22, 22);
     padding: 20px;
+    color: white;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.menus{
+    display: flex;
+    
+} 
+
+.menu-item{
+    margin-right: 20px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.menu-item:hover{
+    color: aqua;
+
 }
 .logo-photo{
     width: 170px;
