@@ -10,6 +10,7 @@
     align-items: center;
     display: flex;
     justify-content: space-around;
+    border-bottom: 1px solid gray;
 }
 .menus{
     display: flex;
@@ -28,12 +29,11 @@
     width: 170px;
 }
 .banner-img{
-    width: 280px;
+    width: 300px;
 }
 .banner-container{
     display: flex;
     justify-content: space-around;
-    border: 1px solid rgb(130, 56, 199);
     height: 100vh;
     align-items: center;
     background-image: url("./images/background.png"),linear-gradient(45deg,#090808,#000);
@@ -41,7 +41,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 1px;
+    
 
 }
 .head{
@@ -50,8 +50,8 @@
 }
 .paragraph{
     font-size: 20px;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 .botom{
     padding: 10px 20px;
@@ -59,4 +59,75 @@
     color: white;
     border-radius: 5px;
     border: none;
+    margin-top: 15px;
+
 }
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    flex-direction: row-reverse;
+}
+.about-head{
+    text-align: center;
+    font-size: 50px;
+    padding: 15px;
+}
+.about-text{
+    margin: 10px;
+
+}
+.text-heading{
+    font-size: 27px;
+}
+.about-p{
+    font-size: 20px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(202, 21, 21);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.box{
+    width: 230px;
+    height: 250px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: #0c0c0c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+
+}
+.icon{
+    width: 70px;
+}
+.btn-box{
+    background-color: gray;
+    margin-top: 10px;
+}
+.box-heading{
+    padding: 10px;
+    
+
+}
+.box-para{
+    padding: 5px;
+}
+.Service-container{
+    display: flex;
+    justify-content: space-around;
+}
+.back-color{
+    background-color: rgb(55, 52, 52);
+}
+.Service-head{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 48px;
+    margin: 10px;
+}
+
